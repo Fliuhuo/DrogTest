@@ -210,6 +210,7 @@
 		099EB03116E4A5B1007731D7 /* cocos2dx-ext_public.defines.txt in Resources */ = {isa = PBXBuildFile; fileRef = 099EB03016E4A5B1007731D7 /* cocos2dx-ext_public.defines.txt */; };
 		099EB03716E4A5B1007731D7 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 099EB03616E4A5B1007731D7 /* AppDelegate.cpp */; };
 		099EB03A16E4A5B1007731D7 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 099EB03916E4A5B1007731D7 /* HelloWorldScene.cpp */; };
+		099EB04216E4A608007731D7 /* DrogDownBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 099EB04016E4A608007731D7 /* DrogDownBox.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -660,6 +661,8 @@
 		099EB03616E4A5B1007731D7 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		099EB03816E4A5B1007731D7 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		099EB03916E4A5B1007731D7 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		099EB04016E4A608007731D7 /* DrogDownBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DrogDownBox.cpp; path = Classes/DrogDownBox.cpp; sourceTree = "<group>"; };
+		099EB04116E4A608007731D7 /* DrogDownBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrogDownBox.h; path = Classes/DrogDownBox.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1591,6 +1594,8 @@
 		099EB03416E4A5B1007731D7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				099EB04016E4A608007731D7 /* DrogDownBox.cpp */,
+				099EB04116E4A608007731D7 /* DrogDownBox.h */,
 				099EB03516E4A5B1007731D7 /* AppDelegate.h */,
 				099EB03616E4A5B1007731D7 /* AppDelegate.cpp */,
 				099EB03816E4A5B1007731D7 /* HelloWorldScene.h */,
@@ -1853,6 +1858,7 @@
 				099EB02B16E4A5B1007731D7 /* CCPhysicsSprite.cpp in Sources */,
 				099EB03716E4A5B1007731D7 /* AppDelegate.cpp in Sources */,
 				099EB03A16E4A5B1007731D7 /* HelloWorldScene.cpp in Sources */,
+				099EB04216E4A608007731D7 /* DrogDownBox.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
